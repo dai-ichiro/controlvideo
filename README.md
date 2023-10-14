@@ -25,7 +25,8 @@ cd controlvideo
 pip install -r requirements_cu116.txt
 ```
 ## Prepare Pretrained Text-to-Image Diffusion Model
-Download the [Stable Diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main) and ControlNet 1.0 for [canny](https://huggingface.co/lllyasviel/sd-controlnet-canny/tree/main), [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), [depth](https://huggingface.co/lllyasviel/sd-controlnet-depth) and [pose](https://huggingface.co/lllyasviel/sd-controlnet-openpose). Put them in ```./``` .
+Download the [Stable Diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main). Put it in ```./sd```.
+ControlNet 1.0 for [canny](https://huggingface.co/lllyasviel/sd-controlnet-canny/tree/main), [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), [depth](https://huggingface.co/lllyasviel/sd-controlnet-depth) and [pose](https://huggingface.co/lllyasviel/sd-controlnet-openpose). Put them in ```./controlnet``` .
 ## Quick Start
 ```
 python main.py --control_type hed --video_path videos/car10.mp4 --source 'a car' --target 'a red car' --out_root outputs/ --max_step 300 
