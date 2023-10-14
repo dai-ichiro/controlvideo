@@ -14,7 +14,9 @@ ControlVideo incorporates visual conditions for all frames to amplify the source
 - [ ] More Sampler
 ## Environment
 ```
-conda env create -f environment.yml
+git clone https://github.com/dai-ichiro/controlvideo
+cd controlvideo
+pip install -r requirements_cu116.txt
 ```
 The environment is similar to [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
 ## Prepare Pretrained Text-to-Image Diffusion Model
