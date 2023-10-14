@@ -1,6 +1,6 @@
 pretrained_model_path: "./sd/stable-diffusion-v1-5"
 output_dir: ""    # "./outputs/v1/depth/back"
-pretrained_controlnet_path: "./controlnet/sd-controlnet-depth"
+pretrained_controlnet_path: "./controlnet/control_v11f1p_sd15_depth"
 
 control_config:
   type: "depth"
