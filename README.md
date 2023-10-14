@@ -30,7 +30,13 @@ Download the [Stable Diffusion 1.5](https://huggingface.co/runwayml/stable-diffu
 Download ControlNet 1.0 for [canny](https://huggingface.co/lllyasviel/sd-controlnet-canny/tree/main), [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), [depth](https://huggingface.co/lllyasviel/sd-controlnet-depth) and [pose](https://huggingface.co/lllyasviel/sd-controlnet-openpose). Put them in ```./controlnet``` .
 ## Quick Start
 ```
-python main.py --control_type hed --video_path videos/car10.mp4 --source 'a car' --target 'a red car' --out_root outputs/ --max_step 300 
+python main.py \
+  --control_type hed \
+  --video_path videos/car10.mp4 \
+  --source "a car" \
+  --target "a red car" \
+  --out_root outputs/ \
+  --max_step 300
 ```
 The ```control_type``` is the type of controls, which is chosen from ```canny/hed/depth/pose```. The ```video_path``` is the path to the input video. The ```source``` is the source prompt for the source video. The ```target``` is the target prompt. The ```max_step``` is the step for training. The ```out_root``` is the path for saving results. 
 ## Run More Demos 
