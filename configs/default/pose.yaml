@@ -1,6 +1,6 @@
 pretrained_model_path: "./sd/stable-diffusion-v1-5"
 output_dir: ""    # "./outputs/v1_demo/pose/dance"
-pretrained_controlnet_path: "./controlnet/sd-controlnet-openpose"
+pretrained_controlnet_path: "./controlnet/control_v11p_sd15_openpose"
 
 control_config:
   type: "openpose"
