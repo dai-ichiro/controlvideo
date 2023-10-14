@@ -14,6 +14,12 @@ ControlVideo incorporates visual conditions for all frames to amplify the source
 - [ ] More Sampler
 ## Environment
 ```
+Ubuntu 20.04 on WSL2
+CUDA 11.6
+Python 3.9
+```
+
+```
 git clone https://github.com/dai-ichiro/controlvideo
 cd controlvideo
 pip install -r requirements_cu116.txt
