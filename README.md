@@ -7,7 +7,7 @@ ControlVideo incorporates visual conditions for all frames to amplify the source
 ![image](assets/demo.png)
 ## To Do List
 - [ ] Multi Controls Code Organization
-- [ ] Support ControlNet 1.1 
+- [x] Support ControlNet 1.1 
 - [ ] Support Attention Control
 - [ ] More Applications such as Image-Guided Video Generation
 - [ ] Hugging Face
@@ -27,7 +27,7 @@ pip install -r requirements_cu116.txt
 ## Prepare Pretrained Text-to-Image Diffusion Model
 Download the [Stable Diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main). Put it in ```./sd```.
 
-Download ControlNet 1.0 for [canny](https://huggingface.co/lllyasviel/sd-controlnet-canny/tree/main), [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), [depth](https://huggingface.co/lllyasviel/sd-controlnet-depth) and [pose](https://huggingface.co/lllyasviel/sd-controlnet-openpose). Put them in ```./controlnet``` .
+Download ControlNet for [canny](https://huggingface.co/lllyasviel/control_v11p_sd15_canny), [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), [depth](https://huggingface.co/lllyasviel/control_v11f1p_sd15_depth) and [pose](https://huggingface.co/lllyasviel/control_v11p_sd15_openpose). Put them in ```./controlnet``` .
 ## Quick Start
 ```
 python main.py \
