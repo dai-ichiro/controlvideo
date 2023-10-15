@@ -38,7 +38,17 @@ python main.py \
   --out_root outputs/ \
   --max_step 300
 ```
-The ```control_type``` is the type of controls, which is chosen from ```canny/hed/depth/pose```. The ```video_path``` is the path to the input video. The ```source``` is the source prompt for the source video. The ```target``` is the target prompt. The ```max_step``` is the step for training. The ```out_root``` is the path for saving results. 
+The ```control_type``` is the type of controls, which is chosen from ```canny/hed/depth/pose```.
+
+The ```video_path``` is the path to the input video.
+
+The ```source``` is the source prompt for the source video.
+
+The ```target``` is the target prompt.
+
+The ```max_step``` is the step for training.
+
+The ```out_root``` is the path for saving results. 
 ## Run More Demos 
 Download the [data](https://drive.google.com/drive/folders/1RrYCaq6QxSVD2K4wJFrTyDnISli8f625?usp=sharing) and put them in ```videos/```.
 ```
